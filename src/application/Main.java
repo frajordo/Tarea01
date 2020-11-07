@@ -13,6 +13,8 @@ import javafx.scene.layout.BorderPane;
 import javafx.application.Application;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.paint.Color;
@@ -25,7 +27,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) {
 
 		//fondo para encajar a los botones
-        HBox root = new HBox(60);
+        HBox root = new HBox(10);
         root.setAlignment(Pos.CENTER);
         
         //Botones
@@ -57,6 +59,11 @@ public class Main extends Application {
             	root.setBackground(new Background(new BackgroundFill(Color.YELLOW,null,null)));
             }
         });
+
+        Label anunci = new Label("ANUNCIO 1");
+		ImageView anuncio = new ImageView(new Image("file:///anuncio2.png"));
+		
+		root.getChildren().add(anuncio);
         
         
         //Configuraciones de la ventana
