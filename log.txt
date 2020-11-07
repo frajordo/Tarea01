@@ -1,0 +1,6 @@
+Se ha cambiado el color del fondo al color 0xff0000ff a las Fri Nov 06 19:14:01 COT 2020
+Se ha cambiado el color del fondo al color 0x0000ffff a las Fri Nov 06 19:14:01 COT 2020
+Se ha cambiado el color del fondo al color 0xffff00ff a las Fri Nov 06 19:14:01 COT 2020
+Se ha cambiado el color del fondo al color 0xffff00ff a las Fri Nov 06 19:14:01 COT 2020
+Se ha cambiado el color del fondo al color 0x0000ffff a las Fri Nov 06 19:14:01 COT 2020
+Se ha cambiado el color del fondo al color 0xff0000ff a las Fri Nov 06 19:14:01 COT 2020

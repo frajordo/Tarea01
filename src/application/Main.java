@@ -37,6 +37,7 @@ public class Main extends Application {
         //Acciones de los botones
         boton1.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
+            	update("Rojo");
             	root.setBackground(new Background(new BackgroundFill(Color.RED,null,null)));
             }
         });
@@ -44,6 +45,7 @@ public class Main extends Application {
         
         boton2.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
+            	update("Azul");
             	root.setBackground(new Background(new BackgroundFill(Color.BLUE,null,null)));
             }
         });
@@ -51,6 +53,7 @@ public class Main extends Application {
         
         boton3.setOnAction(new EventHandler<ActionEvent>() {
             @Override public void handle(ActionEvent e) {
+            	update("Amarillo");
             	root.setBackground(new Background(new BackgroundFill(Color.YELLOW,null,null)));
             }
         });
@@ -61,6 +64,10 @@ public class Main extends Application {
         primaryStage.setTitle("TAREA 01");
         primaryStage.setScene(scene);
         primaryStage.show();
+	}
+	
+	public static void update(String color){
+		
 	}
 	
 	public static void main(String[] args) {
