@@ -24,7 +24,6 @@ public aspect anuncios {
 			flag = true;
 		}
 		
-		System.out.print(nbutton);
 		String text_anuncio="";
 		switch(nbutton) {
 		case 1:
